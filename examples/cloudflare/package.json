@@ -16,14 +16,14 @@
         "wrangler:deploy": "npm run build && wrangler --env prod deploy"
     },
     "dependencies": {
-        "@lucidcms/cloudflare-adapter": "*",
-        "@lucidcms/core": "*",
-        "@lucidcms/libsql-adapter": "*",
-        "@lucidcms/plugin-pages": "*",
-        "@lucidcms/plugin-resend": "*",
-        "@lucidcms/plugin-s3": "*",
-        "@lucidcms/plugin-cloudflare-kv": "*",
-        "@lucidcms/plugin-cloudflare-queues": "*"
+        "@lucidcms/cloudflare-adapter": "file:../../../packages/cloudflare-adapter",
+        "@lucidcms/core": "file:../../../packages/core",
+        "@lucidcms/libsql-adapter": "file:../../../packages/libsql-adapter",
+        "@lucidcms/plugin-pages": "file:../../../packages/plugin-pages",
+        "@lucidcms/plugin-resend": "file:../../../packages/plugin-resend",
+        "@lucidcms/plugin-s3": "file:../../../packages/plugin-s3",
+        "@lucidcms/plugin-cloudflare-kv": "file:../../../packages/plugin-cloudflare-kv",
+        "@lucidcms/plugin-cloudflare-queues": "file:../../../packages/plugin-cloudflare-queues"
     },
     "author": "Lucid",
     "license": "MIT",

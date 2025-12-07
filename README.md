@@ -57,7 +57,9 @@ A modern, TypeScript-first headless CMS designed for ultimate flexibility. Power
 
 ## 🏁 Getting Started
 
-To get started you can follow the [Getting Started](https://lucidcms.io/getting-started/) guide from our documentation. Lucid CMS is super easy to get up and running and with the SQLite DB adapter along with the [Local Storage](https://lucidcms.io/plugins/local-storage/) plugin, you can get set up without needing any third party services.
+For a complete local development setup using SQLite and filesystem services, see the [Local Development Guide](docs/local-dev.md).
+
+To get started quickly, you can also follow the [Getting Started](https://lucidcms.io/getting-started/) guide from our documentation. Lucid CMS is super easy to get up and running and with the SQLite DB adapter along with the [Local Storage](https://lucidcms.io/plugins/local-storage/) plugin, you can get set up without needing any third party services.
 
 ## 🖥️ Lucid UI
 

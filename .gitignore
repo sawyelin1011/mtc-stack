@@ -38,3 +38,5 @@ yarn-error.log*
 # lucid
 tmp
 db.sqlite
+storage/
+*.db
