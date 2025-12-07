@@ -1,0 +1,1 @@
+export { IconLinkFull } from "./IconLinkFull";

@@ -1,0 +1,6 @@
+/dist/
+/cms/
+/node_modules/
+db.sqlite
+/uploads/
+/admin
