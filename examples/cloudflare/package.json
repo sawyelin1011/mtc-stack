@@ -19,11 +19,13 @@
         "@lucidcms/cloudflare-adapter": "file:../../../packages/cloudflare-adapter",
         "@lucidcms/core": "file:../../../packages/core",
         "@lucidcms/libsql-adapter": "file:../../../packages/libsql-adapter",
+        "@lucidcms/sqlite-adapter": "file:../../../packages/sqlite-adapter",
         "@lucidcms/plugin-pages": "file:../../../packages/plugin-pages",
         "@lucidcms/plugin-resend": "file:../../../packages/plugin-resend",
         "@lucidcms/plugin-s3": "file:../../../packages/plugin-s3",
         "@lucidcms/plugin-cloudflare-kv": "file:../../../packages/plugin-cloudflare-kv",
-        "@lucidcms/plugin-cloudflare-queues": "file:../../../packages/plugin-cloudflare-queues"
+        "@lucidcms/plugin-cloudflare-queues": "file:../../../packages/plugin-cloudflare-queues",
+        "better-sqlite3": "^11.9.1"
     },
     "author": "Lucid",
     "license": "MIT",

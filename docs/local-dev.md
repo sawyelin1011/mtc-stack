@@ -145,6 +145,27 @@ chmod 644 apps/playground/storage/lucid-dev.db
 3. Run migrations when database schema changes: `npm run migrate:fresh`
 4. Test with the admin UI at `http://localhost:6543`
 
+## Verifying Local Development
+
+To verify that all core workspaces (core, admin, playground, and the Cloudflare example) build successfully with the trimmed dependency set:
+
+```bash
+npm run verify:local
+```
+
+This command runs the `scripts/verify-local-dev.mjs` script, which:
+
+- Creates a temporary SQLite database for testing
+- Generates secure environment variables automatically
+- Builds the core, libsql-adapter, cloudflare-adapter, admin, playground, and cloudflare-example workspaces sequentially via Turbo filters
+- Reports any build failures with clear error messages
+
+This is particularly useful for:
+
+- Verifying that optional dependencies are properly configured
+- Testing builds in a clean environment without relying on your local `.env` files
+- Ensuring all workspaces compile correctly before committing changes
+
 ## Next Steps
 
 - Explore the collection definitions in `apps/playground/src/collections/`
