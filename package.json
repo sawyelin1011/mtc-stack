@@ -3,6 +3,7 @@
     "scripts": {
         "start": "turbo run start",
         "build": "turbo run build",
+        "verify:local": "node ./scripts/verify-local-dev.mjs",
         "dev:full": "turbo dev --filter=@lucidcms/playground --filter=@lucidcms/admin --filter=@lucidcms/core",
         "dev:core": "turbo dev --filter=@lucidcms/playground --filter=@lucidcms/core",
         "dev:cms": "turbo dev --filter=@lucidcms/playground --filter=@lucidcms/admin",
